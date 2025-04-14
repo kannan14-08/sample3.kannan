@@ -17,8 +17,14 @@
  font-family: Arial, Helvetica, sans-serif;
  padding: 30px;
  border-radius: 50px;
-
+ transition: transform 0.5s,box-shadow 0.5s;
 } 
+
+.navbar:hover{
+  transform: scale(0.9);
+  box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.5);
+}
+ 
 .navdiv{
   display: flex;
   align-items: center;

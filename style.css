@@ -94,7 +94,16 @@ button a{
   padding-bottom: 20px;
   margin-left: 50px;
   font-size: 100px;
+  margin-right: 120px;
+  text-align: center;
+  border-radius: 100px;
+  margin-top: 30px;
+  transition: box-shadow 0.5s;
+  cursor: pointer;
+}
 
+.par h1:hover{
+  box-shadow: -1px 20px 20px 20px rgba(0, 0, 0, 0.5);
 }
 
 .par p{
